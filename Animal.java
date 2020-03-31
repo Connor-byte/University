@@ -1,30 +1,21 @@
 //Start of project//
 //**********************************************//
 //* Author: 1807192                            *//
-//* Week: 7                                    *//
+//* Week: 6                                    *//
 //* Tutorial Task: Animal Action               *//          
-//********************************s**************//
+//**********************************************//
 
 //Loads package//
-package nor2.animal;
+package nor.animal;
 
 //Declares class Animal//
 public abstract class Animal {
 	
 	public boolean isAPet = true;
 	
-	public String owner ="";
-	
 	//Sets owner to John//
-	public String getOwner() {
-		
-		return owner;
-	}
+	public String owner = "John";
 	
-	public void setOwner(String newOwner) {
-		
-		owner = newOwner;
-	}
 	//If sleeping print a string//
 	public void sleep() {
 		
@@ -41,12 +32,6 @@ public abstract class Animal {
 		System.out.println("Eating");
 		
 	}//closes eat void//
-	
-	//If sound print a string//
-	public void sound() {
-		
-		System.out.println("The animal makes the sound");
-	}//closes sound void//
 	
 	public abstract void move();
 	

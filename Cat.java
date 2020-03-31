@@ -1,22 +1,15 @@
 //Start of project//
 //**********************************************//
 //* Author: 1807192                            *//
-//* Week: 7                                    *//
+//* Week: 6                                    *//
 //* Tutorial Task: Animal Action               *//          
 //**********************************************//
 
 //Loads package//
-package nor2.animal;
-
-
+package nor.animal;
 
 //Declares class and extends to Animal class//
 public class Cat extends Animal {
-	
-	public Cat() {
-		
-		setOwner("Alice");
-	}
 	
 	public void meow() {
 		
@@ -31,12 +24,5 @@ public class Cat extends Animal {
 		System.out.println("Jumping");
 		
 	}//End of public void move//
-	
-	public void makeSound() {
-		
-		//Outputs required string//
-		System.out.println("The cat meow!");
-		
-	}//End of public void sound//
 }//End of class Cat//
 //End of project//

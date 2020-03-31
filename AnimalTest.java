@@ -1,12 +1,12 @@
 //Start of project//
 //**********************************************//
 //* Author: 1807192                            *//
-//* Week: 7                                    *//
+//* Week: 6                                    *//
 //* Tutorial Task: Animal Action               *//          
 //**********************************************//
 
 //Loads package//
-package nor2.animal;
+package nor.animal;
 
 //Declares class Animal Test//
 public class AnimalTest {
@@ -39,21 +39,6 @@ public class AnimalTest {
 		cat.move();
 		dog.move();
 		
-		//Adds blank line to make output clearer//
-		System.out.println("");
-		
-		//sound or actions loaded from extended animals//
-		lion.makeSound();
-		cat.makeSound();
-		dog.makeSound();
-		
-		//Adds blank line to make output clearer//
-		System.out.println("");
-				
-		//sound or actions loaded from extended animals//
-		System.out.println(lion.getOwner());
-		System.out.println(cat.getOwner());
-		System.out.println(dog.getOwner());
 		
 	}//End of static void main//
 }//End of class Animal Test//
