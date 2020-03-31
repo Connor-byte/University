@@ -6,10 +6,15 @@
 //**********************************************//
 
 //Loads package//
-package nor.animal;
+package nor2.animal;
 
 //Declares class and extends to Animal class//
 public class Dog extends Animal {
+	
+	public Dog() {
+		
+		setOwner("Mike");
+	}
 	
 	public void bark() {
 		
@@ -24,5 +29,12 @@ public class Dog extends Animal {
 		System.out.println("Running");
 		
 	}//End of public void move//
+	
+	public void makeSound() {
+		
+		//Outputs required string//
+		System.out.println("The dog barks!");
+		
+	}//End of public void sound//
 }//End of class Dog//
 //End of project//
